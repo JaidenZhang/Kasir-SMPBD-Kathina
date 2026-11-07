@@ -108,7 +108,7 @@
                     </p>
                 </div>
 
-                <button type="button" onclick="handleCashierLogin()" class="w-full py-4 px-6 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 active:scale-[0.99] text-white font-bold rounded-2xl shadow-lg shadow-amber-500/25 transition flex items-center justify-center gap-2 text-base cursor-pointer">
+                <button type="button" onclick="handleCashierLogin(event)" class="w-full py-4 px-6 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 active:scale-[0.99] text-white font-bold rounded-2xl shadow-lg shadow-amber-500/25 transition flex items-center justify-center gap-2 text-base cursor-pointer">
                     <span>Masuk ke Kasir</span>
                     <i class="fa-solid fa-arrow-right"></i>
                 </button>
@@ -136,7 +136,7 @@
                     <p class="text-xs text-slate-500 flex items-center gap-2 mt-0.5">
                         <span><i class="fa-regular fa-calendar mr-1"></i><span id="liveDateDisplay">-</span></span>
                         <span>•</span>
-                        <span class="text-emerald-600 font-semibold">Rp 10.000 / Porsi</span>
+                        <span class="text-emerald-600 font-semibold">Gorengan 10k • Pempek & Roti 15k</span>
                     </p>
                 </div>
             </div>
@@ -331,7 +331,7 @@
                 </section>
 
                 <!-- ================================================= -->
-                <!-- KATEGORI 2: PEMPEK (RP 10.000 / PORSI)            -->
+                <!-- KATEGORI 2: PEMPEK (RP 15.000 / PORSI)            -->
                 <!-- ================================================= -->
                 <section id="section_PEMPEK" class="bg-white rounded-3xl border-2 border-emerald-200/80 shadow-sm overflow-hidden transition">
                     <div class="bg-gradient-to-r from-emerald-500/10 via-teal-500/5 to-transparent p-5 border-b border-emerald-100 flex flex-wrap items-center justify-between gap-3">
@@ -343,10 +343,10 @@
                                 <div class="flex items-center gap-2 flex-wrap">
                                     <h2 class="text-lg font-extrabold text-slate-900">2. Pempek</h2>
                                     <span class="px-2.5 py-0.5 text-xs font-extrabold rounded-full bg-emerald-600 text-white">
-                                        Rp 10.000 / Porsi
+                                        Rp 15.000 / Porsi
                                     </span>
                                 </div>
-                                <p class="text-xs text-slate-500 mt-0.5">Masukkan jumlah porsi Pempek yang dipesan pembeli</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Masukkan jumlah porsi Pempek yang dipesan pembeli (15k/porsi)</p>
                             </div>
                         </div>
                         <div class="text-right ml-auto">
@@ -363,7 +363,7 @@
                                 </div>
                                 <div>
                                     <h3 class="font-extrabold text-slate-800 text-base">Paket Pempek</h3>
-                                    <p class="text-xs text-slate-500">Harga Rp 10.000 per porsi lengkap cuko</p>
+                                    <p class="text-xs text-slate-500">Harga Rp 15.000 per porsi lengkap cuko</p>
                                 </div>
                             </div>
 
@@ -390,7 +390,7 @@
                 </section>
 
                 <!-- ================================================= -->
-                <!-- KATEGORI 3: DELICIOUS BREAD (ROTI GORENG) 10K     -->
+                <!-- KATEGORI 3: DELICIOUS BREAD (ROTI GORENG) 15K     -->
                 <!-- ================================================= -->
                 <section id="section_ROTI" class="bg-white rounded-3xl border-2 border-purple-200/80 shadow-sm overflow-hidden transition">
                     <div class="bg-gradient-to-r from-purple-500/10 via-fuchsia-500/5 to-transparent p-5 border-b border-purple-100 flex flex-wrap items-center justify-between gap-3">
@@ -402,10 +402,10 @@
                                 <div class="flex items-center gap-2 flex-wrap">
                                     <h2 class="text-lg font-extrabold text-slate-900">3. Delicious Bread (Roti Goreng)</h2>
                                     <span class="px-2.5 py-0.5 text-xs font-extrabold rounded-full bg-purple-600 text-white">
-                                        Rp 10.000 / Porsi
+                                        Rp 15.000 / Porsi
                                     </span>
                                 </div>
-                                <p class="text-xs text-slate-500 mt-0.5">Pilih varian rasa: Pisang, Berry, Coklat, atau Campur (per porsi 10k)</p>
+                                <p class="text-xs text-slate-500 mt-0.5">Pilih varian rasa: Pisang, Berry, Coklat, atau Campur (per porsi 15k)</p>
                             </div>
                         </div>
                         <div class="text-right ml-auto">
@@ -421,7 +421,7 @@
                                 <div>
                                     <div class="flex items-center justify-between mb-2">
                                         <span class="text-2xl">🍌</span>
-                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">10k / Porsi</span>
+                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">15k / Porsi</span>
                                     </div>
                                     <h3 class="font-bold text-slate-800 text-sm">Rasa Pisang</h3>
                                     <p class="text-[11px] text-slate-400 mt-0.5">Delicious Bread</p>
@@ -445,7 +445,7 @@
                                 <div>
                                     <div class="flex items-center justify-between mb-2">
                                         <span class="text-2xl">🍓</span>
-                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">10k / Porsi</span>
+                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">15k / Porsi</span>
                                     </div>
                                     <h3 class="font-bold text-slate-800 text-sm">Rasa Berry</h3>
                                     <p class="text-[11px] text-slate-400 mt-0.5">Delicious Bread</p>
@@ -469,7 +469,7 @@
                                 <div>
                                     <div class="flex items-center justify-between mb-2">
                                         <span class="text-2xl">🍫</span>
-                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">10k / Porsi</span>
+                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">15k / Porsi</span>
                                     </div>
                                     <h3 class="font-bold text-slate-800 text-sm">Rasa Coklat</h3>
                                     <p class="text-[11px] text-slate-400 mt-0.5">Delicious Bread</p>
@@ -493,7 +493,7 @@
                                 <div>
                                     <div class="flex items-center justify-between mb-2">
                                         <span class="text-2xl">✨</span>
-                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">10k / Porsi</span>
+                                        <span class="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-purple-50 text-purple-700">15k / Porsi</span>
                                     </div>
                                     <h3 class="font-bold text-slate-800 text-sm">Rasa Campur</h3>
                                     <p class="text-[11px] text-slate-400 mt-0.5">Mix Rasa Roti</p>
@@ -576,7 +576,7 @@
                         <div class="bg-gradient-to-br from-amber-50 to-orange-50/70 rounded-2xl p-4 border border-amber-200/80 flex items-center justify-between">
                             <div>
                                 <span class="text-xs font-bold text-amber-900/70 uppercase tracking-wider block">Total Harga Bayar</span>
-                                <span id="summaryPortionDetail" class="text-[11px] text-amber-800 font-medium">0 Porsi x Rp 10.000</span>
+                                <span id="summaryPortionDetail" class="text-[11px] text-amber-800 font-medium">0 Porsi</span>
                             </div>
                             <div id="grandTotalDisplay" class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
                                 Rp 0
@@ -604,7 +604,7 @@
 
                             <!-- Tombol Nominal Uang Cepat -->
                             <div class="grid grid-cols-4 gap-1.5">
-                                <button type="button" onclick="setCashAmount(10000)" class="py-1.5 rounded-xl bg-white border border-slate-200 hover:border-emerald-400 text-xs font-bold text-slate-700 transition">10.000</button>
+                                <button type="button" onclick="setCashAmount(15000)" class="py-1.5 rounded-xl bg-white border border-slate-200 hover:border-emerald-400 text-xs font-bold text-slate-700 transition">15.000</button>
                                 <button type="button" onclick="setCashAmount(20000)" class="py-1.5 rounded-xl bg-white border border-slate-200 hover:border-emerald-400 text-xs font-bold text-slate-700 transition">20.000</button>
                                 <button type="button" onclick="setCashAmount(50000)" class="py-1.5 rounded-xl bg-white border border-slate-200 hover:border-emerald-400 text-xs font-bold text-slate-700 transition">50.000</button>
                                 <button type="button" onclick="setCashAmount(100000)" class="py-1.5 rounded-xl bg-white border border-slate-200 hover:border-emerald-400 text-xs font-bold text-slate-700 transition">100.000</button>
@@ -710,7 +710,7 @@
                     type="button" 
                     id="doneModalOkBtn"
                     onclick="closeDoneModalAndContinue()" 
-                    class="w-full py-4 px-6 rounded-2xl bg-slate-900 hover:bg-slate-800 text-white font-extrabold text-base shadow-lg transition flex items-center justify-center gap-2"
+                    class="w-full py-4 px-6 rounded-2xl bg-slate-900 hover:bg-slate-800 text-white font-extrabold text-base shadow-lg transition flex items-center justify-center gap-2 cursor-pointer"
                 >
                     <span>OK, Lanjut Transaksi Berikutnya</span>
                     <i class="fa-solid fa-arrow-right"></i>
@@ -724,34 +724,24 @@
         <i id="customToastIcon" class="fa-solid fa-circle-info text-amber-400 text-base"></i>
         <span id="customToastMessage">Pesan notifikasi</span>
     </div>
-
-    <!-- ========================================== -->
-    <!-- LOGIKA JAVASCRIPT APLIKASI POS KASIR       -->
-    <!-- ========================================== -->
     <script>
-        /**
-         * ============================================================================
-         * KONFIGURASI UTAMA (EDIT LANGSUNG DI SINI LEWAT KODE)
-         * ============================================================================
-         * - INSTANSI_NAME : Nama instansi atau acara yang tampil pada header & login.
-         * - LOGO_URL      : Path file gambar logo (misal: "logo.png") atau URL gambar.
-         * - URLS          : Masukkan URL Web App / SheetDB / Webhook untuk masing-masing
-         *                   spreadsheet makanan (Gorengan, Pempek, dan Delicious Bread).
-         * ============================================================================
-         */
         const CONFIG = {
             INSTANSI_NAME: "Bazaar Kathina",
-            LOGO_URL: "data:image/png;base64,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",
+            LOGO_URL: "Logo sbd.png",
+            HARGA_PORSI: {
+                GORENGAN: 10000, 
+                PEMPEK: 15000,   
+                ROTI: 15000
+            },
             URLS: {
-                gorengan: "", // <-- Tempel URL Spreadsheet GORENGAN di sini
-                pempek: "",   // <-- Tempel URL Spreadsheet PEMPEK di sini
-                roti: ""      // <-- Tempel URL Spreadsheet DELICIOUS BREAD (ROTI GORENG) di sini
+                gorengan: "https://script.google.com/macros/s/AKfycbz8u8NfLXDDopxMlYtyah3mrYBmMU5VR6NAzskFrCZ-lMbw6Zl4ewYuIvoc5NooqVI87g/exec", // <-- Tempel URL Web App (https://script.google.com/macros/s/.../exec) GORENGAN di sini
+                pempek: "https://script.google.com/macros/s/AKfycbyYSAFijP0TSIzqg9mr-lDI_ycBNO_59wBaZUgQhpVIng95dGWJpaHVG5nhOOe_T-q6ag/exec",   // <-- Tempel URL Web App PEMPEK di sini
+                roti: "https://script.google.com/macros/s/AKfycby6hOGrE3ngq3cMctgFzGLcI_MfgaY01z44eyjmPi_7ia2bg3zcAf4DYhH89xGO05c/exec"      // <-- Tempel URL Web App DELICIOUS BREAD (ROTI GORENG) di sini
             }
         };
 
         /**
          * STATE SESI KASIR (HANYA DI MEMORI RAM, TIDAK DISIMPAN DI LOCALSTORAGE)
-         * Sesuai permintaan: "ampe website nya direfresh baru ganti kasir gitu, login ulang lagi"
          */
         let currentCashierName = "";
         let activeCategoryFilter = "ALL";
@@ -772,9 +762,9 @@
             gor_tempe: 0,
             gor_bakwan: 0,
             gor_pisang: 0,
-            // Pempek (satuan dalam Porsi -> 1 Porsi = Rp 10.000)
+            // Pempek (satuan dalam Porsi -> 1 Porsi = Rp 15.000)
             pempek_porsi: 0,
-            // Delicious Bread / Roti Goreng (satuan dalam Porsi -> 1 Porsi = Rp 10.000)
+            // Delicious Bread / Roti Goreng (satuan dalam Porsi -> 1 Porsi = Rp 15.000)
             roti_pisang: 0,
             roti_berry: 0,
             roti_coklat: 0,
@@ -793,15 +783,12 @@
             roti_campur: { name: "Delicious Bread - Campur", category: "ROTI", unit: "porsi" }
         };
 
-        const HARGA_PER_PORSI = 10000;
-
         // Inisialisasi saat halaman pertama kali dibuka / di-refresh
         window.addEventListener("DOMContentLoaded", () => {
             applyHardcodedConfig();
             updateLiveDate();
             setInterval(updateLiveDate, 30000);
             renderCartAndTotals();
-            // Fokus otomatis ke input nama kasir
             const cashierInput = document.getElementById("cashierNameInput");
             if (cashierInput) cashierInput.focus();
         });
@@ -835,15 +822,18 @@
         function handleCashierInputKeydown(event) {
             const errEl = document.getElementById("loginErrorText");
             if (errEl) errEl.classList.add("hidden");
-            if (event.key === "Enter") {
+            if (event.key === "Enter" || event.keyCode === 13) {
                 event.preventDefault();
+                event.stopPropagation();
                 handleCashierLogin();
+                return false;
             }
         }
 
         function handleCashierLogin(event) {
             if (event && typeof event.preventDefault === "function") {
                 event.preventDefault();
+                event.stopPropagation();
             }
 
             const input = document.getElementById("cashierNameInput");
@@ -854,7 +844,7 @@
                 if (errEl) errEl.classList.remove("hidden");
                 showToast("Ketik nama kasir terlebih dahulu!", "error");
                 if (input) input.focus();
-                return;
+                return false;
             }
 
             if (errEl) errEl.classList.add("hidden");
@@ -862,10 +852,12 @@
             document.getElementById("activeCashierDisplay").textContent = currentCashierName;
 
             const loginScreen = document.getElementById("loginScreen");
+            loginScreen.style.display = "none";
             loginScreen.classList.add("hidden");
             loginScreen.classList.remove("flex");
 
             showToast(`Selamat bertugas, Kasir ${currentCashierName}!`, "success");
+            return false;
         }
 
         function switchCashierSession() {
@@ -877,6 +869,7 @@
             resetAllCart(true);
 
             const loginScreen = document.getElementById("loginScreen");
+            loginScreen.style.display = "flex";
             loginScreen.classList.remove("hidden");
             loginScreen.classList.add("flex");
 
@@ -959,21 +952,21 @@
             const totalGorenganPcs = cartQty.gor_tempe + cartQty.gor_bakwan + cartQty.gor_pisang;
             const gorenganPortions = Math.floor(totalGorenganPcs / 4);
             const gorenganRemainderPcs = totalGorenganPcs % 4;
-            const gorenganSubtotal = gorenganPortions * HARGA_PER_PORSI;
+            const gorenganSubtotal = gorenganPortions * CONFIG.HARGA_PORSI.GORENGAN;
 
             const gorDetails = [];
             if (cartQty.gor_tempe > 0) gorDetails.push(`Tempe: ${cartQty.gor_tempe} pcs`);
             if (cartQty.gor_bakwan > 0) gorDetails.push(`Bakwan: ${cartQty.gor_bakwan} pcs`);
             if (cartQty.gor_pisang > 0) gorDetails.push(`Pisang: ${cartQty.gor_pisang} pcs`);
 
-            // 2. Pempek: 1 porsi = Rp 10.000
+            // 2. Pempek: 1 porsi = Rp 15.000
             const pempekPortions = cartQty.pempek_porsi;
-            const pempekSubtotal = pempekPortions * HARGA_PER_PORSI;
+            const pempekSubtotal = pempekPortions * CONFIG.HARGA_PORSI.PEMPEK;
             const pempekDetailText = pempekPortions > 0 ? `Pempek: ${pempekPortions} porsi` : "-";
 
-            // 3. Delicious Bread (Roti Goreng): 1 porsi = Rp 10.000
+            // 3. Delicious Bread (Roti Goreng): 1 porsi = Rp 15.000
             const rotiPortions = cartQty.roti_pisang + cartQty.roti_berry + cartQty.roti_coklat + cartQty.roti_campur;
-            const rotiSubtotal = rotiPortions * HARGA_PER_PORSI;
+            const rotiSubtotal = rotiPortions * CONFIG.HARGA_PORSI.ROTI;
 
             const rotiDetails = [];
             if (cartQty.roti_pisang > 0) rotiDetails.push(`Pisang: ${cartQty.roti_pisang} porsi`);
@@ -989,16 +982,19 @@
                     totalPcs: totalGorenganPcs,
                     portions: gorenganPortions,
                     remainderPcs: gorenganRemainderPcs,
+                    pricePerPortion: CONFIG.HARGA_PORSI.GORENGAN,
                     subtotal: gorenganSubtotal,
                     detailText: gorDetails.join(", ") || "-"
                 },
                 pempek: {
                     portions: pempekPortions,
+                    pricePerPortion: CONFIG.HARGA_PORSI.PEMPEK,
                     subtotal: pempekSubtotal,
                     detailText: pempekDetailText
                 },
                 roti: {
                     portions: rotiPortions,
+                    pricePerPortion: CONFIG.HARGA_PORSI.ROTI,
                     subtotal: rotiSubtotal,
                     detailText: rotiDetails.join(", ") || "-"
                 },
@@ -1009,7 +1005,6 @@
 
         // Render UI Keranjang, Kartu Menu, dan Kalkulasi Harga
         function renderCartAndTotals() {
-            // Update angka per kartu item dan highlight border jika > 0
             Object.keys(cartQty).forEach((key) => {
                 const qty = cartQty[key];
                 const qtyEl = document.getElementById(`qty_${key}`);
@@ -1124,9 +1119,17 @@
                 }).join("");
             }
 
-            // Update Total Porsi & Grand Total
+            // Update Rincian Porsi & Grand Total
             document.getElementById("totalPortionsBadge").textContent = `${data.totalPortions} Porsi`;
-            document.getElementById("summaryPortionDetail").textContent = `${data.totalPortions} Porsi x Rp 10.000`;
+
+            const summaryParts = [];
+            if (data.gorengan.portions > 0) summaryParts.push(`${data.gorengan.portions}P Gorengan (10k)`);
+            if (data.pempek.portions > 0) summaryParts.push(`${data.pempek.portions}P Pempek (15k)`);
+            if (data.roti.portions > 0) summaryParts.push(`${data.roti.portions}P Roti (15k)`);
+
+            document.getElementById("summaryPortionDetail").textContent = summaryParts.length > 0
+                ? summaryParts.join(" + ")
+                : "0 Porsi";
             document.getElementById("grandTotalDisplay").textContent = formatRupiah(data.grandTotal);
 
             calculateChange();
@@ -1176,14 +1179,22 @@
                 return { ok: true, mode: "LOCAL_ONLY" };
             }
 
+            const cleanUrl = targetUrl.trim();
+
+            // Peringatan jika yang ditempel masih URL tampilan Google Sheet (/edit), bukan Web App (/exec)
+            if (cleanUrl.includes("docs.google.com/spreadsheets/d/") && !cleanUrl.includes("script.google.com")) {
+                console.warn("URL yang dimasukkan adalah link tampilan Google Sheet, bukan URL Web App Google Apps Script (/exec).");
+                return { ok: false, mode: "INVALID_SHEET_LINK" };
+            }
+
             try {
-                // Mendukung SheetDB.io, Sheet.best, Make/Zapier Webhook, dan Google Apps Script Web App
+                // Mendukung Google Apps Script Web App (/exec), SheetDB.io, Sheet.best, dan Webhook
                 const payload = {
                     data: [rowData],
                     ...rowData
                 };
 
-                await fetch(targetUrl, {
+                await fetch(cleanUrl, {
                     method: "POST",
                     mode: "no-cors",
                     headers: {
@@ -1232,7 +1243,12 @@
             const note = document.getElementById("orderNoteInput").value.trim() || "-";
             const tanggalTransaksi = getFormattedTimestamp();
 
-            // Siapkan daftar pengiriman per kategori makanan yang dibeli pada transaksi ini
+            // Hitung jumlah kategori aktif untuk pembagian Uang Diterima & Kembalian yang akurat
+            const activeCategoriesCount =
+                (data.gorengan.portions > 0 ? 1 : 0) +
+                (data.pempek.portions > 0 ? 1 : 0) +
+                (data.roti.portions > 0 ? 1 : 0);
+
             const payloadsToSend = [];
 
             if (data.gorengan.portions > 0) {
@@ -1245,10 +1261,10 @@
                         "Tanggal": tanggalTransaksi,
                         "Nama Kasir": currentCashierName,
                         "Jumlah Porsi": data.gorengan.portions,
-                        "Harga/Porsi": HARGA_PER_PORSI,
+                        "Harga/Porsi": data.gorengan.pricePerPortion,
                         "Total Bayar": data.gorengan.subtotal,
-                        "Uang Diterima": data.totalPortions === data.gorengan.portions ? uangDiterimaTotal : data.gorengan.subtotal,
-                        "Kembalian": data.totalPortions === data.gorengan.portions ? kembalianTotal : 0,
+                        "Uang Diterima": activeCategoriesCount === 1 ? uangDiterimaTotal : data.gorengan.subtotal,
+                        "Kembalian": activeCategoriesCount === 1 ? kembalianTotal : 0,
                         "Rincian Item": data.gorengan.detailText,
                         "Catatan": note
                     }
@@ -1265,10 +1281,10 @@
                         "Tanggal": tanggalTransaksi,
                         "Nama Kasir": currentCashierName,
                         "Jumlah Porsi": data.pempek.portions,
-                        "Harga/Porsi": HARGA_PER_PORSI,
+                        "Harga/Porsi": data.pempek.pricePerPortion,
                         "Total Bayar": data.pempek.subtotal,
-                        "Uang Diterima": data.totalPortions === data.pempek.portions ? uangDiterimaTotal : data.pempek.subtotal,
-                        "Kembalian": data.totalPortions === data.pempek.portions ? kembalianTotal : 0,
+                        "Uang Diterima": activeCategoriesCount === 1 ? uangDiterimaTotal : data.pempek.subtotal,
+                        "Kembalian": activeCategoriesCount === 1 ? kembalianTotal : 0,
                         "Rincian Item": data.pempek.detailText,
                         "Catatan": note
                     }
@@ -1285,10 +1301,10 @@
                         "Tanggal": tanggalTransaksi,
                         "Nama Kasir": currentCashierName,
                         "Jumlah Porsi": data.roti.portions,
-                        "Harga/Porsi": HARGA_PER_PORSI,
+                        "Harga/Porsi": data.roti.pricePerPortion,
                         "Total Bayar": data.roti.subtotal,
-                        "Uang Diterima": data.totalPortions === data.roti.portions ? uangDiterimaTotal : data.roti.subtotal,
-                        "Kembalian": data.totalPortions === data.roti.portions ? kembalianTotal : 0,
+                        "Uang Diterima": activeCategoriesCount === 1 ? uangDiterimaTotal : data.roti.subtotal,
+                        "Kembalian": activeCategoriesCount === 1 ? kembalianTotal : 0,
                         "Rincian Item": data.roti.detailText,
                         "Catatan": note
                     }
@@ -1301,7 +1317,7 @@
             sendBtn.disabled = true;
             sendBtn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i><span>MENGIRIM DATA...</span>`;
 
-            // Kirim paralel ke masing-masing URL Spreadsheet
+            // Kirim ke masing-masing URL Spreadsheet
             const results = [];
             for (const item of payloadsToSend) {
                 const res = await sendPayloadToSpreadsheet(item.targetUrl, item.rowData);
@@ -1331,16 +1347,20 @@
             const subtitle = document.getElementById("doneModalSubtitle");
 
             const sentRemoteCount = results.filter((r) => r.status.mode === "SENT_REMOTE").length;
+            const invalidLinkCount = results.filter((r) => r.status.mode === "INVALID_SHEET_LINK").length;
+
             if (sentRemoteCount > 0) {
-                subtitle.textContent = `Terkirim ke ${sentRemoteCount} URL Spreadsheet & tercatat di Tabel Kasir`;
+                subtitle.textContent = `Terkirim ke ${sentRemoteCount} Spreadsheet & tercatat di Tabel Kasir`;
+            } else if (invalidLinkCount > 0) {
+                subtitle.textContent = `Tercatat Lokal (Ganti link /edit di CONFIG dengan URL Web App /exec)`;
             } else {
-                subtitle.textContent = `Tercatat di Tabel Kasir (Isi URL di CONFIG kode jika ingin kirim online)`;
+                subtitle.textContent = `Tercatat di Tabel Kasir (Isi URL Web App di CONFIG kode untuk kirim online)`;
             }
 
             const itemsHtml = results.map((r) => `
                 <div class="flex items-start justify-between border-b border-slate-200 pb-1.5">
                     <div>
-                        <span class="font-extrabold text-slate-800">${r.categoryLabel} (${r.rowData["Jumlah Porsi"]} Porsi)</span>
+                        <span class="font-extrabold text-slate-800">${r.categoryLabel} (${r.rowData["Jumlah Porsi"]} Porsi x ${formatRupiah(r.rowData["Harga/Porsi"])})</span>
                         <div class="text-[11px] text-slate-500">${r.rowData["Rincian Item"]}</div>
                     </div>
                     <span class="font-bold text-slate-800">${formatRupiah(r.rowData["Total Bayar"])}</span>
@@ -1398,9 +1418,12 @@
             }
 
             tbody.innerHTML = sessionTransactionLogs.map((row) => {
-                const statusBadge = row.statusMode === "SENT_REMOTE"
-                    ? `<span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 font-bold text-[10px]">Terkirim URL</span>`
-                    : `<span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-bold text-[10px]">Tersimpan Lokal</span>`;
+                let statusBadge = `<span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 font-bold text-[10px]">Tersimpan Lokal</span>`;
+                if (row.statusMode === "SENT_REMOTE") {
+                    statusBadge = `<span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-700 font-bold text-[10px]">Terkirim Sheet</span>`;
+                } else if (row.statusMode === "INVALID_SHEET_LINK") {
+                    statusBadge = `<span class="px-2 py-0.5 rounded-full bg-rose-100 text-rose-700 font-bold text-[10px]">Link Belum /exec</span>`;
+                }
 
                 return `
                     <tr class="hover:bg-slate-50 transition">
@@ -1447,14 +1470,14 @@
             }, 3000);
         }
 
-        // Copy Data Tabel ke Clipboard (Bisa langsung di-paste ke Google Sheets / Excel)
+        // Copy Data Tabel ke Clipboard (Sesuai urutan kolom A sampai H di Spreadsheet Kasir Bazar)
         function copyTableToClipboard() {
             if (sessionTransactionLogs.length === 0) {
                 showToast("Belum ada data transaksi untuk disalin!", "error");
                 return;
             }
 
-            const headers = ["No.", "Tanggal", "Nama Kasir", "Jumlah Porsi", "Harga/Porsi", "Total Bayar", "Uang Diterima", "Kembalian", "Kategori", "Rincian Item", "Catatan"];
+            const headers = ["No.", "Tanggal", "Nama Kasir", "Jumlah Porsi", "Harga/Porsi", "Total Bayar", "Uang Diterima", "Kembalian", "Rincian Item", "Catatan"];
             const rows = sessionTransactionLogs.slice().reverse().map((r) => [
                 r["No."],
                 r["Tanggal"],
@@ -1464,7 +1487,6 @@
                 r["Total Bayar"],
                 r["Uang Diterima"],
                 r["Kembalian"],
-                r.categoryLabel,
                 r["Rincian Item"],
                 r["Catatan"]
             ].join("\t"));
